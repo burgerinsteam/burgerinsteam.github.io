@@ -1,4 +1,636 @@
 <!doctype html>
-<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="DV BurgerinSteam – Dartverein in Kremsmünster."><title>DV BurgerinSteam | Darts Kremsmünster</title><style>
-*{box-sizing:border-box}body{margin:0;background:#111416;color:#f5f3ee;font:17px/1.65 system-ui,sans-serif}main,header,footer{max-width:960px;margin:auto;padding:28px}header{display:flex;align-items:center;justify-content:space-between;gap:15px;font-weight:800;letter-spacing:.06em}header small{color:#dfb568}.hero{display:grid;grid-template-columns:1.3fr 1fr;align-items:center;gap:30px;padding:70px 0}.eyebrow{color:#dfb568;text-transform:uppercase;letter-spacing:.18em;font-size:12px;font-weight:800}h1{font-size:clamp(36px,6vw,76px);line-height:1.03;letter-spacing:-.05em;margin:16px 0;overflow-wrap:anywhere}h2{font-size:27px;margin:0 0 12px}p{color:#c5c8c6}svg{width:100%;max-width:330px;justify-self:center;filter:drop-shadow(0 12px 35px #0008)}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}section{border:1px solid #363b3c;border-radius:16px;padding:26px;background:#1b2022}.wide{grid-column:1/-1}footer{font-size:13px;color:#aeb4b2;border-top:1px solid #363b3c;margin-top:30px}a{color:#dfb568}@media(max-width:650px){.hero,.cards{grid-template-columns:1fr}.hero{padding:30px 0}.hero svg{max-width:210px}.wide{grid-column:auto}header{font-size:12px}}
-</style></head><body><header><span>◉ DV BURGERINSTEAM</span><small>KREMSMÜNSTER</small></header><main><div class="hero"><div><div class="eyebrow">Darts · Gemeinschaft · Leidenschaft</div><h1>Good Darts.<br>Good Times.</h1><p>Willkommen beim DV BurgerinSteam in Kremsmünster. Gemeinsam ans Oche – mit Freude am Spiel und am Miteinander.</p></div><svg viewBox="0 0 300 300" role="img" aria-label="Stilisierte Dartscheibe"><circle cx="150" cy="150" r="144" fill="#080a0b" stroke="#dfb568" stroke-width="3"/><circle cx="150" cy="150" r="120" fill="#d8c7a4"/><path d="M150 150 L270 150 A120 120 0 0 1 264.12678195541844 187.08203932499367 Z" fill="#252a2b"/><path d="M150 150 L247.0820393249937 220.53423027509677 A120 120 0 0 1 220.53423027509677 247.0820393249937 Z" fill="#252a2b"/><path d="M150 150 L187.0820393249937 264.12678195541844 A120 120 0 0 1 150 270 Z" fill="#252a2b"/><path d="M150 150 L112.91796067500633 264.12678195541844 A120 120 0 0 1 79.46576972490324 247.0820393249937 Z" fill="#252a2b"/><path d="M150 150 L52.91796067500631 220.53423027509677 A120 120 0 0 1 35.87321804458158 187.0820393249937 Z" fill="#252a2b"/><path d="M150 150 L30 150.00000000000003 A120 120 0 0 1 35.87321804458155 112.91796067500637 Z" fill="#252a2b"/><path d="M150 150 L52.9179606750063 79.46576972490324 A120 120 0 0 1 79.46576972490321 52.91796067500631 Z" fill="#252a2b"/><path d="M150 150 L112.9179606750063 35.87321804458158 A120 120 0 0 1 149.99999999999997 30 Z" fill="#252a2b"/><path d="M150 150 L187.08203932499367 35.87321804458156 A120 120 0 0 1 220.53423027509675 52.9179606750063 Z" fill="#252a2b"/><path d="M150 150 L247.08203932499367 79.4657697249032 A120 120 0 0 1 264.12678195541844 112.91796067500628 Z" fill="#252a2b"/><circle cx="150" cy="150" r="116" fill="none" stroke="#8c433b" stroke-width="9"/><circle cx="150" cy="150" r="72" fill="none" stroke="#63806d" stroke-width="8"/><circle cx="150" cy="150" r="15" fill="#63806d"/><circle cx="150" cy="150" r="7" fill="#b24a40"/><path d="M150 150 L235 67" stroke="#dfb568" stroke-width="5" stroke-linecap="round"/><path d="M215 87 L221 49 L248 52 L251 77 Z" fill="#dfb568"/></svg></div><div class="cards"><section><div class="eyebrow">01 / Über uns</div><h2>Unser Verein</h2><p>Wir teilen die Begeisterung für Darts und möchten gemeinsam trainieren, spielen und Turniere veranstalten.</p></section><section><div class="eyebrow">02 / Treffpunkt</div><h2>Unser Vereinslokal</h2><p>McDaniels, Kremsmünster<br>Oberösterreich</p></section><section><div class="eyebrow">03 / Aktuelles</div><h2>Termine &amp; Turniere</h2><p>Neue Termine werden hier bekannt gegeben.</p></section><section><div class="eyebrow">04 / Kontakt</div><h2>Kontakt zum Verein</h2><p>Unsere zentrale Vereins-E-Mail-Adresse wird hier ergänzt.</p></section><section class="wide"><h2>Impressum</h2><p>DV BurgerinSteam · Kremsmünster, Österreich. Die vollständigen Vereins- und Kontaktangaben werden vor dem offiziellen Betrieb ergänzt.</p></section></div></main><footer>DV BurgerinSteam · Kremsmünster · Good Darts!</footer></body></html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DV BurgerinSteam | Kremsmünster</title>
+  <meta name="description" content="DV BurgerinSteam – Dartverein in Kremsmünster. Infos, Kontakt, Rangliste, Spielplan und Platzierungen.">
+
+  <style>
+    :root{
+      --bg:#0a0d12;
+      --bg2:#131923;
+      --card:#171d28;
+      --gold:#d9ad4d;
+      --gold2:#f5dd97;
+      --red:#cf2029;
+      --red2:#ff4b55;
+      --text:#f5f3ee;
+      --muted:#c0c7d2;
+      --line:rgba(255,255,255,.10);
+      --shadow:0 18px 45px rgba(0,0,0,.35);
+      --radius:24px;
+      --max:1180px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(circle at top right, rgba(207,32,41,.20), transparent 24%),
+        radial-gradient(circle at top left, rgba(217,173,77,.15), transparent 28%),
+        linear-gradient(180deg,#090c11 0%, #0d1219 45%, #0b0f15 100%);
+    }
+
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+
+    .topbar{
+      position:sticky;
+      top:0;
+      z-index:10;
+      backdrop-filter:blur(10px);
+      background:rgba(9,12,17,.78);
+      border-bottom:1px solid rgba(255,255,255,.05);
+    }
+
+    .topbar-inner{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:20px;
+      padding:14px 0;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      font-weight:900;
+      letter-spacing:.03em;
+    }
+
+    .brand-badge{
+      width:42px;
+      height:42px;
+      border-radius:12px;
+      display:grid;
+      place-items:center;
+      background:linear-gradient(135deg,var(--gold2),var(--gold),#9b6f20);
+      color:#111;
+      font-weight:900;
+      box-shadow:var(--shadow);
+    }
+
+    .brand small{
+      display:block;
+      color:#9da6b3;
+      font-weight:700;
+      font-size:.82rem;
+      margin-top:2px;
+    }
+
+    .nav{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      color:var(--muted);
+      font-size:.95rem;
+    }
+
+    .nav a{
+      padding:8px 12px;
+      border-radius:999px;
+      transition:.2s ease;
+    }
+
+    .nav a:hover{
+      background:rgba(255,255,255,.06);
+      color:#fff;
+    }
+
+    .hero{
+      padding:56px 0 26px;
+    }
+
+    .hero-grid{
+      display:grid;
+      grid-template-columns:1.15fr .85fr;
+      gap:34px;
+      align-items:center;
+    }
+
+    .eyebrow{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      padding:8px 14px;
+      border-radius:999px;
+      background:rgba(217,173,77,.08);
+      border:1px solid rgba(217,173,77,.24);
+      color:var(--gold2);
+      font-size:.82rem;
+      font-weight:800;
+      text-transform:uppercase;
+      letter-spacing:.14em;
+    }
+
+    .eyebrow::before{
+      content:"";
+      width:8px;
+      height:8px;
+      border-radius:50%;
+      background:linear-gradient(135deg,var(--red2),var(--gold2));
+    }
+
+    h1{
+      margin:18px 0 14px;
+      font-size:clamp(2.4rem,6.8vw,5rem);
+      line-height:.96;
+      letter-spacing:-.05em;
+      font-weight:1000;
+    }
+
+    .gradient{
+      background:linear-gradient(180deg,#ffffff 0%, #f5dd97 45%, #d7a43b 100%);
+      -webkit-background-clip:text;
+      background-clip:text;
+      color:transparent;
+    }
+
+    .hero p{
+      max-width:720px;
+      color:var(--muted);
+      font-size:1.08rem;
+      margin:0 0 25px;
+    }
+
+    .cta-row{
+      display:flex;
+      flex-wrap:wrap;
+      gap:14px;
+      margin-bottom:12px;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      padding:14px 20px;
+      border-radius:16px;
+      font-weight:800;
+      transition:.2s ease;
+      box-shadow:var(--shadow);
+    }
+
+    .btn-primary{
+      background:linear-gradient(135deg,var(--gold2),var(--gold),#bb872c);
+      color:#111;
+    }
+
+    .btn-primary:hover{transform:translateY(-2px)}
+
+    .btn-secondary{
+      background:rgba(255,255,255,.05);
+      border:1px solid rgba(255,255,255,.10);
+    }
+
+    .btn-secondary:hover{
+      background:rgba(255,255,255,.08);
+    }
+
+    .hero-note{
+      color:#97a0ae;
+      font-size:.95rem;
+    }
+
+    .logo-card{
+      position:relative;
+      overflow:hidden;
+      background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:30px;
+      padding:26px;
+      box-shadow:var(--shadow);
+    }
+
+    .logo-card::before{
+      content:"";
+      position:absolute;
+      right:-60px;
+      bottom:-60px;
+      width:200px;
+      height:200px;
+      background:radial-gradient(circle, rgba(217,173,77,.20), transparent 65%);
+    }
+
+    .logo-card::after{
+      content:"";
+      position:absolute;
+      left:-60px;
+      top:-60px;
+      width:170px;
+      height:170px;
+      background:radial-gradient(circle, rgba(207,32,41,.18), transparent 65%);
+    }
+
+    .logo-card img{
+      position:relative;
+      z-index:1;
+      margin:0 auto;
+      width:min(100%,420px);
+      filter:drop-shadow(0 18px 35px rgba(0,0,0,.35));
+    }
+
+    .mini-grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:16px;
+      margin:10px 0 12px;
+    }
+
+    .mini-card{
+      background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));
+      border:1px solid var(--line);
+      border-radius:20px;
+      padding:18px;
+      box-shadow:var(--shadow);
+    }
+
+    .mini-label{
+      font-size:.8rem;
+      text-transform:uppercase;
+      letter-spacing:.12em;
+      color:var(--gold2);
+      font-weight:900;
+      margin-bottom:8px;
+    }
+
+    .mini-value{
+      font-size:1.08rem;
+      font-weight:800;
+    }
+
+    .section{
+      padding:30px 0;
+    }
+
+    .section-title{
+      margin-bottom:18px;
+    }
+
+    .section-title h2{
+      margin:0 0 6px;
+      font-size:clamp(1.6rem,3vw,2.3rem);
+      letter-spacing:-.03em;
+    }
+
+    .section-title p{
+      margin:0;
+      color:var(--muted);
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:18px;
+    }
+
+    .card{
+      background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.015));
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:22px;
+      box-shadow:var(--shadow);
+    }
+
+    .icon{
+      width:52px;
+      height:52px;
+      border-radius:16px;
+      display:grid;
+      place-items:center;
+      font-size:1.4rem;
+      margin-bottom:14px;
+      background:linear-gradient(135deg,rgba(217,173,77,.18),rgba(207,32,41,.18));
+      border:1px solid rgba(255,255,255,.08);
+    }
+
+    .card h3{
+      margin:0 0 8px;
+      font-size:1.15rem;
+    }
+
+    .card p{
+      margin:0;
+      color:var(--muted);
+    }
+
+    .panel{
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:20px;
+    }
+
+    .highlight{
+      background:linear-gradient(135deg,rgba(217,173,77,.10),rgba(207,32,41,.08) 40%,rgba(255,255,255,.03));
+      border:1px solid rgba(217,173,77,.16);
+      border-radius:30px;
+      padding:26px;
+      box-shadow:var(--shadow);
+    }
+
+    .highlight h3{
+      margin:0 0 10px;
+      font-size:1.5rem;
+    }
+
+    .highlight p{
+      margin:0 0 18px;
+      color:var(--muted);
+    }
+
+    .list{
+      display:grid;
+      gap:12px;
+    }
+
+    .list-item{
+      display:flex;
+      align-items:flex-start;
+      gap:12px;
+      padding:14px 16px;
+      border-radius:18px;
+      background:rgba(255,255,255,.04);
+      border:1px solid rgba(255,255,255,.06);
+    }
+
+    .list-item strong{
+      display:block;
+      margin-bottom:4px;
+    }
+
+    .flyer-box{
+      background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));
+      border:1px solid var(--line);
+      border-radius:30px;
+      padding:24px;
+      box-shadow:var(--shadow);
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      gap:14px;
+    }
+
+    .flyer-box h3{
+      margin:0;
+      font-size:1.4rem;
+    }
+
+    .flyer-box p{
+      margin:0;
+      color:var(--muted);
+    }
+
+    .footer{
+      padding:28px 0 44px;
+      color:#8f98a7;
+    }
+
+    .footer-box{
+      display:flex;
+      flex-wrap:wrap;
+      gap:18px;
+      justify-content:space-between;
+      align-items:center;
+      padding:18px 22px;
+      border-radius:22px;
+      background:rgba(255,255,255,.04);
+      border:1px solid rgba(255,255,255,.06);
+    }
+
+    @media (max-width: 980px){
+      .hero-grid,
+      .mini-grid,
+      .cards,
+      .panel{
+        grid-template-columns:1fr;
+      }
+
+      .logo-card{
+        order:-1;
+      }
+
+      .topbar-inner{
+        flex-direction:column;
+        align-items:flex-start;
+      }
+    }
+
+    @media (max-width: 640px){
+      .wrap{padding:0 16px}
+      .hero{padding-top:36px}
+      .cta-row{display:grid;grid-template-columns:1fr}
+      .btn{width:100%}
+      .mini-card,.card,.highlight,.flyer-box{padding:18px}
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="brand">
+        <div class="brand-badge">DV</div>
+        <div>
+          DV BurgerinSteam
+          <small>Kremsmünster</small>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#verein">Verein</a>
+        <a href="#aktuell">Aktuell</a>
+        <a href="#turnier">Dartturnier</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Darts · Turniere · Gemeinschaft</div>
+          <h1><span class="gradient">Treffpunkt für Darts</span><br>in Kremsmünster</h1>
+          <p>
+            Willkommen beim <strong>DV BurgerinSteam</strong>.
+            Hier findest du unsere wichtigsten Infos, den direkten Kontakt
+            sowie den aktuellen Link zu <strong>Rang, Spielplan und Platzierung</strong>.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://www.throwdarts.at/app/uploads/tabellen/hg141.pdf" target="_blank" rel="noopener">
+              Rang / Spielplan öffnen
+            </a>
+            <a class="btn btn-secondary" href="mailto:burgerinsteam@gmail.com">
+              burgerinsteam@gmail.com
+            </a>
+          </div>
+
+          <div class="hero-note">
+            Immer aktuell: Die Rangliste, der Spielplan und die Platzierung werden extern über Throwdarts bereitgestellt.
+          </div>
+        </div>
+
+        <div class="logo-card">
+          <img src="logo.png" alt="DV BurgerinSteam Logo">
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <div class="mini-grid">
+        <div class="mini-card">
+          <div class="mini-label">Vereinsname</div>
+          <div class="mini-value">DV BurgerinSteam</div>
+        </div>
+        <div class="mini-card">
+          <div class="mini-label">Adresse</div>
+          <div class="mini-value">Hauptstraße 1a</div>
+        </div>
+        <div class="mini-card">
+          <div class="mini-label">E-Mail</div>
+          <div class="mini-value">burgerinsteam@gmail.com</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="verein">
+      <div class="wrap">
+        <div class="section-title">
+          <h2>Was euch bei uns erwartet</h2>
+          <p>Alles auf einer Seite – klar, modern und direkt.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="icon">🎯</div>
+            <h3>Darts mit Leidenschaft</h3>
+            <p>Ein Verein für alle, die Freude am Dartsport, an fairen Matches und an einer starken Gemeinschaft haben.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon">🏆</div>
+            <h3>Turniere & Platzierungen</h3>
+            <p>Aktuelle Spielpläne, Ranglisten und Platzierungen findest du jederzeit über unseren externen Turnierlink.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon">🤝</div>
+            <h3>Gemeinschaft</h3>
+            <p>Bei uns geht es nicht nur ums Gewinnen, sondern auch um Zusammenhalt, Spaß und gute Abende miteinander.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="aktuell">
+      <div class="wrap panel">
+        <div class="highlight">
+          <div class="mini-label">Aktuell & wichtig</div>
+          <h3>Rang, Spielplan & Platzierung</h3>
+          <p>
+            Der aktuelle Stand wird über Throwdarts geführt.
+            Mit einem Klick kommst du direkt zum PDF.
+          </p>
+
+          <div class="list">
+            <div class="list-item">
+              <div>📄</div>
+              <div>
+                <strong>Direktlink</strong>
+                <span>throwdarts.at/app/uploads/tabellen/hg141.pdf</span>
+              </div>
+            </div>
+
+            <div class="list-item">
+              <div>⚡</div>
+              <div>
+                <strong>Immer aktuell</strong>
+                <span>Rangliste, Spielplan und Platzierung werden dort laufend gepflegt.</span>
+              </div>
+            </div>
+
+            <div class="list-item">
+              <div>📧</div>
+              <div>
+                <strong>Fragen?</strong>
+                <span>Schreib uns einfach an burgerinsteam@gmail.com.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cta-row" style="margin-top:20px;">
+            <a class="btn btn-primary" href="https://www.throwdarts.at/app/uploads/tabellen/hg141.pdf" target="_blank" rel="noopener">
+              PDF jetzt öffnen
+            </a>
+          </div>
+        </div>
+
+        <div class="flyer-box" id="turnier">
+          <div class="mini-label">Dartturnier</div>
+          <h3>Dartturnier beim DV BurgerinSteam</h3>
+          <p>
+            Infos zum Dartturnier, aktuelle Platzierungen und der laufende Spielplan
+            sind über den oberen Button jederzeit abrufbar.
+          </p>
+          <p>
+            Für weitere Infos oder Anfragen einfach per E-Mail melden.
+          </p>
+          <div class="cta-row" style="margin-top:8px;">
+            <a class="btn btn-secondary" href="mailto:burgerinsteam@gmail.com">Jetzt Kontakt aufnehmen</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="kontakt">
+      <div class="wrap">
+        <div class="section-title">
+          <h2>Infos & Kontakt</h2>
+          <p>Du möchtest mitspielen oder mehr erfahren? Dann melde dich bei uns.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="icon">📍</div>
+            <h3>Vereinsadresse</h3>
+            <p>Hauptstraße 1a<br>Kremsmünster</p>
+          </article>
+
+          <article class="card">
+            <div class="icon">✉️</div>
+            <h3>E-Mail</h3>
+            <p><a href="mailto:burgerinsteam@gmail.com">burgerinsteam@gmail.com</a></p>
+          </article>
+
+          <article class="card">
+            <div class="icon">🔗</div>
+            <h3>Turnierlink</h3>
+            <p>
+              <a href="https://www.throwdarts.at/app/uploads/tabellen/hg141.pdf" target="_blank" rel="noopener">
+                Zum aktuellen PDF mit Rang, Spielplan & Platzierung
+              </a>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-box">
+        <div>© 2026 DV BurgerinSteam · Kremsmünster</div>
+        <div>Einseitige Vereinswebseite mit externem Link für aktuelle Turnierdaten.</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
